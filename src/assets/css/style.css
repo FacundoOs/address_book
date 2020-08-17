@@ -1,0 +1,66 @@
+body, html {
+    background-color:#EBECF0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+form {
+    width: 50%;
+  }
+
+  button, input, textarea {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 320px;
+    margin: 10px 0;
+    padding: 16px;
+    background-color:EBECF0#EBECF0;
+    text-shadow: 1px 1px 0 #FFF;
+  }
+
+    #submit {
+        width: 20%;
+    }
+
+  label {
+      padding-left: 10px;
+  }
+  input, textarea {
+    display: flex;
+    flex-direction: column ;
+    margin-right: 8px;
+    box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+    resize: none;
+}
+
+input:focus {
+    box-shadow:  inset 1px 1px 2px #BABECC inset -1px -1px 2px #FFF;
+}
+  
+.flex1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+button, #submit {
+    color:#61677C;
+    font-weight: bold;
+    box-shadow: -5px -5px 20px #FFF,  5px 5px 20px #BABECC;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+}
+    button:hover {
+      box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+    }
+
+#contact-list {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
